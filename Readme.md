@@ -1,1 +1,25 @@
-# Email Crowler
+# Email Crawler
+This project mines websites for finding email addresses.
+
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+In order to manually install __Email Crawler__ you'll need Python2.x installed on your system, as well as the Python package manager, pip. You can check if you have these already installed from the command line:
+```bash
+$ python --version
+Python 2.7.2
+$ pip --version
+pip 10.0.1
+```
+
+If pip is installed in your system then you must have installed some libraries of Python2 .
+```bash
+$ sudo pip install sqlalchemy
+$ sudo pip install -U setuptools
+```
+
+### Installing
+For installing this project you just need to download the source files.
+
+### Running
