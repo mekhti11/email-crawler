@@ -23,3 +23,20 @@ $ sudo pip install -U setuptools
 For installing this project you just need to download the source files.
 
 ### Running
+Go into project directory and run command below
+
+```bash
+$ python2 email_crawler.py "keyword" 10
+```
+"keyword" - String for searching on Google.
+
+10 - Number of websites that will crawl from searching on Google.
+
+#### Get Crawled emails
+```bash
+$ python2 email_crawler.py --emails
+```
+or
+```bash
+$ python2 email_crawler.py -e
+```
