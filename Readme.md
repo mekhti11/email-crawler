@@ -1,5 +1,5 @@
 # Email Crawler
-This project mines websites for finding email addresses.
+This project mines websites to find email addresses.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -28,9 +28,9 @@ Go into project directory and run command below
 ```bash
 $ python2 email_crawler.py "keyword" 10
 ```
-"keyword" - String for searching on Google.
+"keyword" - String that will be searched on Google
 
-10 - Number of websites that will crawl from searching on Google.
+10 - The number of websites that will be chosen from search results on Google.
 
 #### Get Crawled emails
 ```bash
