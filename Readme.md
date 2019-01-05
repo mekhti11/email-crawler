@@ -30,7 +30,7 @@ $ python2 email_crawler.py "keyword" 10
 ```
 "keyword" - String that will be searched on Google
 
-10 - The number of websites that will be chosen from search results on Google.
+10 - The number of websites that will be chosen from search results on Google for cwawling.
 
 #### Get Crawled emails
 ```bash
