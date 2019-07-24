@@ -139,7 +139,7 @@ def find_links(url, source):
 	return link_set
 
 def sort():
-    path = '/home/mekhti/Downloads/web mining/python-email-crawler-master/data/all_emails.csv'
+    path = '~/python-email-crawler-master/data/all_emails.csv'
     output = open('emails.csv', 'wb')
     writer = csv.writer(output)
 
@@ -151,7 +151,7 @@ def sort():
                 writer.writerow(row)
 
 def print_emails():
-	path = '/home/mekhti/Downloads/web mining/python-email-crawler-master/emails.csv'
+	path = '~/python-email-crawler-master/emails.csv'
 	with open(path,'r') as f:
 		for line in f:
 			print line
